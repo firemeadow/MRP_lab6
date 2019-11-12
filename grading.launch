@@ -1,0 +1,4 @@
+<launch>
+    <node name="ariac_arm_control" type="ariac_node" pkg="ariac_runner" output="screen">
+    </node>
+</launch>

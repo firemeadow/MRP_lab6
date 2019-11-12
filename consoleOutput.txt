@@ -1,0 +1,70 @@
+[0m[ INFO] [1570053770.354463533]: Loading robot model 'gear'...[0m
+[33m[ WARN] [1570053770.354509377]: Skipping virtual joint 'fixed_base' because its child frame 'base_link' does not match the URDF frame 'world'[0m
+[0m[ INFO] [1570053770.354530625]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+[0m[ INFO] [1570053770.452022640]: Loading robot model 'gear'...[0m
+[33m[ WARN] [1570053770.452043083]: Skipping virtual joint 'fixed_base' because its child frame 'base_link' does not match the URDF frame 'world'[0m
+[0m[ INFO] [1570053770.452062257]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+[33m[ WARN] [1570053771.364940998, 26.386000000]: 
+Deprecation warning: Trajectory execution service is deprecated (was replaced by an action).
+Replace 'MoveGroupExecuteService' with 'MoveGroupExecuteTrajectoryAction' in move_group.launch[0m
+[0m[ INFO] [1570053771.368070357, 26.389000000]: Ready to take commands for planning group manipulator.[0m
+[0m[ INFO] [1570053771.374012364, 26.395000000]: Calling Service...[0m
+[0m[ INFO] [1570053771.375870420, 26.397000000]: Service was called[0m
+[0m[ INFO] [1570053771.375888726, 26.397000000]: Successful service call[0m
+[0m[ INFO] [1570053771.375902001, 26.397000000]: Competition is started, looking up orders.[0m
+[0m[ INFO] [1570053771.375917842, 26.397000000]: There is no need to lookup the current order locaiton again.[0m
+[0m[ INFO] [1570053771.488026752, 26.497000000]: Competition is started, looking up orders.[0m
+[0m[ INFO] [1570053771.488110408, 26.497000000]: There is no need to lookup the current order locaiton again.[0m
+[0m[ INFO] [1570053771.589589811, 26.597000000]: Competition is started, looking up orders.[0m
+[0m[ INFO] [1570053771.589613857, 26.597000000]: There is no need to lookup the current order locaiton again.[0m
+[0m[ INFO] [1570053771.589656361, 26.597000000]: Received order[0m
+[0m[ INFO] [1570053771.694288612, 26.697000000]: Competition is started, looking up orders.[0m
+[0m[ INFO] [1570053771.694320700, 26.697000000]: Order has 1 kits[0m
+[0m[ INFO] [1570053771.694339346, 26.697000000]: Kit types: piston_rod_part[0m
+[0m[ INFO] [1570053771.694351391, 26.697000000]: Kit types: piston_rod_part[0m
+[0m[ INFO] [1570053771.694364052, 26.697000000]: Looking up location for kit type order_0_kit_0[0m
+[0m[ INFO] [1570053771.698368766, 26.700000000]: Called kit type lookup service found 2[0m
+[0m[ INFO] [1570053771.698408190, 26.700000000]: Found kit type order_0_kit_0 in storage unit bin7[0m
+[0m[ INFO] [1570053771.698430825, 26.700000000]: Found kit type order_0_kit_0 in storage unit belt[0m
+[0m[ INFO] [1570053771.698470607, 26.700000000]: Object of typepiston_rod_part 
+ at position 0.755377 0.383200 0.056556 
+ and orientation -0.674042 -0.184608 0.621090 0.354731[0m
+[0m[ INFO] [1570053771.698492298, 26.700000000]: Converting the logical camera pose to world coordinates.[0m
+[0m[ INFO] [1570053771.698517998, 26.700000000]: World frame is world[0m
+[0m[ INFO] [1570053771.698576574, 26.700000000]: Transform to [world] from [logical_camera_frame][0m
+[0m[ INFO] [1570053771.698612017, 26.700000000]: Object location in world coordinates 
+ at position -0.101322 0.163443 0.723355 
+ and orientation 0.010863 -0.004057 0.382255 0.923984[0m
+[0m[ INFO] [1570053771.698639796, 26.700000000]: Object location in world coordinates with offset 
+ at position -0.101322 0.163443 0.823355 
+ and orientation 0.000000 0.707000 0.000000 0.707000[0m
+[0m[ INFO] [1570053771.698679305, 26.700000000]: Starting to plan...[0m
+[0m[ INFO] [1570053771.735029755, 26.734000000]: Planning successful, trying to execute...[0m
+[0m[ INFO] [1570053773.745817472, 28.662000000]: Execution successful. Exitting...[0m
+... logging to /home/ems236/.ros/log/ed68f30e-e545-11e9-b1ee-180373b048e4/roslaunch-o405-u05-9390.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/ems236/catkin_ws/src/373Ariac/grading.launch
+[1mstarted roslaunch server http://o405-u05:39565/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.14
+
+NODES
+  /
+    ariac_arm_control (ariac_runner/ariac_node)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/ems236/catkin_ws/src/373Ariac/grading.launch http://localhost:11311
+[1mprocess[ariac_arm_control-1]: started with pid [9407][0m
+[1m[ariac_arm_control-1] process has finished cleanly
+log file: /home/ems236/.ros/log/ed68f30e-e545-11e9-b1ee-180373b048e4/ariac_arm_control-1*.log[0m
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
